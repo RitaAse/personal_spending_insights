@@ -135,7 +135,9 @@ Fimo is designed to be flexible for real-world use. Users can:
 ## ⚙️ Tech Stack
 - Python  
 - Streamlit  
-- Pandas  
+- Pandas
+- Interactive dashboard
+- Feature engineering
 
 ---
 
