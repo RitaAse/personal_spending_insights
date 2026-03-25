@@ -140,14 +140,21 @@ Fimo is designed to be flexible for real-world use. Users can:
 ---
 
 ## 📂 Project Structure
-Fimo/
-├── app.py
-├── budget_data_cleaned_features.csv
-├── monthly_insights.csv
-├── requirements.txt
-├── README.md
-
-
+```
+personal_spending_insights/
+├── data/                # Contains datasets used for analysis
+│   ├── budget_raw_data.csv               # original dataset from kaggle
+│   └── budget_data_cleaned_features.csv  # pre-processed and feature engineered dataset   
+│   └── monthly_insights.csv              # Additional analysis
+      
+├── images/              # Dashboard screenshots and plots
+│   ├── budget_dashboard.png      # Overview of the interactive dashboard
+│   └── monthly_spending.png              # Plot showing July as the highest spending month
+├── .gitignore           
+├── README.md            # Project documentation
+├── budget_dashboard.py  # Main Streamlit application
+└── requirements.txt     # Python dependencies
+```
 ---
 
 ## ⚡ How to Run
