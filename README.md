@@ -175,5 +175,5 @@ cd personal_spending_insights
 
 
 ## 👤 Author
-**Rita Asemota**    
-
+**Rita Asemota**   
+LinkedIn: [Rita Asemota](https://www.linkedin.com/in/rita-asemota-b7a666330/)
