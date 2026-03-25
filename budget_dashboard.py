@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 # -------------------
 # LOAD DATA
 # -------------------
-df = pd.read_csv("budget_data_cleaned_features.csv")
+df = pd.read_csv("data/budget_data_cleaned_features.csv")
 df['date_time'] = pd.to_datetime(df['date_time'])
 
 # -------------------
@@ -214,7 +214,7 @@ with insight_col:
 
     # Monthly insights
 
-    monthly_insights = pd.read_csv("monthly_insights.csv")
+    monthly_insights = pd.read_csv("data/monthly_insights.csv")
     if selected_year != "All" and selected_month != "All":
         month_data = monthly_insights[
             (monthly_insights['year'] == selected_year) &
