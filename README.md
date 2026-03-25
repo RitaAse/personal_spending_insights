@@ -11,7 +11,7 @@ It transforms raw transaction data into **clear insights, trends, and actionable
 
 Managing personal finances effectively is a critical skill for consumers. Understanding where money is spent, which expense areas dominate spending, and monthly trends can help individuals budget better, optimize expenses, and save for the future.
 
-This project leverages a **Personal Budget Transactions dataset** containing transaction records of a consumer across 3 years (July 2022 to Sept 2024), including:
+This project leverages a **Personal Budget Transactions dataset** containing transaction records of a consumer across 3 years (July 2022 to Sept 2024),with 3608 transactions including:
 
 **date** – when purchases were made (date and time of purchase)
 
